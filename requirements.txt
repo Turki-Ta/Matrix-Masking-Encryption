@@ -1,0 +1,11 @@
+torch
+torchvision
+scikit-learn
+matplotlib
+seaborn
+pandas
+medmnist
+kaggle
+h5py
+tqdm
+Pillow
