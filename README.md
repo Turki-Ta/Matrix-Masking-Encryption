@@ -1,7 +1,7 @@
 # Privacy-Preserving Machine Learning: Static Matrix Masking & Domain Generalization
 
 ## Abstract
-This repository contains the official code for our **Left-Sided Matrix Masking** framework ($L = AX$). This method is designed for privacy-preserving machine learning, allowing data owners (e.g., hospitals) to generate exactly one static mask per class batch with near-zero computational overhead. The encrypted dataset is sent to the Cloud for heavy training, followed by a low-resource Domain Adaptation phase ("Figshare Logic") at the local level.
+This repository contains the official code for our **Left-Sided Matrix Masking** framework ($X' = AX$). This method is designed for privacy-preserving machine learning, allowing data owners (e.g., hospitals) to generate exactly one static mask per class batch with near-zero computational overhead. The encrypted dataset is sent to the Cloud for heavy training, followed by a low-resource Domain Adaptation phase ("Figshare Logic") at the local level.
 
 ## 1. Setup Instructions
 To replicate our environment and run these notebooks, you will need Python 3.x and a CUDA-enabled GPU. 
@@ -31,8 +31,6 @@ Below is a summary of the domain generalization accuracy achieved by the hospita
 | **OrganAMNIST** | 98.94% | 91.92% |
 | **SVHN** | 95.44% | 91.48% |
 | **Figshare MRI** | 99.00%* | 91.69% |
-
-*\*Note: The 25.00% masked accuracy on Figshare (a 4-class dataset) represents perfect random guessing, indicating the static mask successfully destroyed visual utility for the Cloud, yet domain adaptation still recovered 91.69% accuracy on the raw data.*
 
 ## 4. Running the Code (Reproducibility)
 To perfectly reproduce the figures, overhead metrics, and accuracy tables from our paper, run the notebooks in the `notebooks/` directory from start to finish.
