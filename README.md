@@ -1,7 +1,7 @@
-# Privacy-Preserving Machine Learning: Static Matrix Masking & Domain Generalization
+# MINNT: Masked-Image Neural Network Training
 
 ## Abstract
-This repository contains the official code for our **Left-Sided Matrix Masking** framework ($X' = AX$). This method is designed for privacy-preserving machine learning, allowing data owners (e.g., hospitals) to generate exactly one static mask per class batch with near-zero computational overhead. The encrypted dataset is sent to the Cloud for heavy training, followed by a low-resource Domain Adaptation phase ("Figshare Logic") at the local level.
+This repository contains the official code for our **Same-Label Matrix Masking** framework ($X' = AX$). This method is designed for privacy-preserving machine learning, allowing data owners (e.g., hospitals) to generate exactly one static mask per class batch with near-zero computational overhead. The encrypted dataset is sent to the Cloud for heavy training, followed by a low-resource Domain Adaptation phase ("Figshare Logic") at the local level.
 
 ## 1. Setup Instructions
 To replicate our environment and run these notebooks, you will need Python 3.x and a CUDA-enabled GPU. 
