@@ -30,7 +30,7 @@ Below is a summary of the domain generalization accuracy achieved by the hospita
 | :--- | :--- | :--- |
 | **OrganAMNIST** | 98.94% | 91.92% |
 | **SVHN** | 95.44% | 91.48% |
-| **Figshare MRI** | 99.00%* | 91.69% |
+| **Figshare MRI** | 99.00% | 91.69% |
 
 ## 4. Running the Code (Reproducibility)
 To perfectly reproduce the figures, overhead metrics, and accuracy tables from our paper, run the notebooks in the `notebooks/` directory from start to finish.
